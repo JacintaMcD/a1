@@ -12,6 +12,8 @@
 	<nav>
 		<ul>
 			<li><a href="index.html">Contents</a></li>
+			<li><a href="rules.html">Rules</a></li>
+			<li><a href="leaderboard.html">Leader Board</a></li>
 			<li><a href="ContactUs.html">Contact Us</a></li>
 			<li><a href="Signup.html">Sign Up</a></li>
 		</ul>
@@ -23,31 +25,46 @@
 
 
 <!--Form-->
-<p>Complete the form below to register your team at Slammers. If you are an individual wishing to play and don't have a team contact us direct so that we can match you up with a team. 
+<p>Complete the form below to register your team at Slammers. If you are an individual wishing to play and don't have a team contact us direct so that we can match you up with a team.</p>
 <form> 
-	<label for="FirstName"> Contact Person Name:</label> <input type="text"required id="FirstName">
+	<label for="FirstName"> Contact Person Name: </label> <input type="text" required id="FirstName">
 	<label for="Phone">	Phone Number:</label> <input type="text" required id="Phone">
 	<label for="Email">Email:</label> <input type="text" required id="Email" size="40">
 <fieldset><legend>Competition Day</legend>
-	<label><input type="radio"name="Competition Day"value="Monday" id="CompetitionDay_0">Monday</label><br>
-	<label><input type="radio"name="Competition Day"value="Tuesday" id="CompetitionDay_1">Tuesday</label><br>
-	<label><input type="radio"name="Competition Day"value="Wednesday" id="CompetitionDay_2">Wednesday</label><br>
-	<label><input type="radio"name="Competition Day"value="Thursday" id="CompetitionDay_3">Thursday</label><br>
-	<label><input type="radio"name="Competition Day"value="Friday" id="CompetitionDay_4">Friday</label><br>
-	<label><input type="radio"name="Competition Day"value="Saturday" id="CompetitionDay_5">Saturday</label>
+	<label><input type="radio" name="Competition Day" value="Monday" id="CompetitionDay_0">Monday</label>
+	<label><input type="radio" name="Competition Day" value="Tuesday" id="CompetitionDay_1">Tuesday</label>
+	<label><input type="radio" name="Competition Day" value="Wednesday" id="CompetitionDay_2">Wednesday</label>
+	<label><input type="radio" name="Competition Day" value="Thursday" id="CompetitionDay_3">Thursday</label>
+	<label><input type="radio" name="Competition Day" value="Friday" id="CompetitionDay_4">Friday</label>
+	<label><input type="radio" name="Competition Day" value="Saturday" id="CompetitionDay_5">Saturday</label>
 </fieldset>
 <br>
 <fieldset><legend>Competition Playing Time</legend>
-  <label><input type="radio" name="Competition Time" value="Afternoon" id="CompetitionTime_0">Afternoon</label><br>
+  <label><input type="radio" name="Competition Time" value="Afternoon" id="CompetitionTime_0">Afternoon</label>
   <label><input type="radio" name="Competition Time" value="Evening" id="CompetitionTime_1">Evening</label><br>
 </fieldset>
-<input type="checkbox" requiredid="Agree"> <label for="checkbox">I have read and agree with the playing guidelines as outlined below.</label>
-<br>
-<input type="submit" id="submit" value="Submit">
+<p>
+  <input type="checkbox" required requiredid="Agree"> 
+  <label for="checkbox">I have read and agree with the playing guidelines as outlined below and are also found with the rules.</label>
+  </p>
+<p>
+  <input name="submit" type="submit" id="submit" formaction="signupdone.html" value="Submit">
+</p>
+<p><br>
+</p>
 </form>
+<h3>Playing Guidelines</h3>
+<ul>
+	<li> Participants in Slammers Beach Volleyball play at their own  risk. Anyone playing is responsible for their own safety and should only play  if they are capable. Check with your doctor before you begin.
+	</li>
+	<li> Game fees must be paid prior to the start of the game. Games  may be cancelled by players up to 4 hours before hand to get a refund. Without  4 hours' notice, participants will forfeit the game and be charged 50% of the  game fee.
+	</li>
+</ul>
+ 
 <!--Footer-->
 	<footer>
-		Website created by Jacinta McDonald
+		Website created by Jacinta McDonald<br>
+		<img src="games.jpg" width="113" height="150" alt=""/><img src="spikes.jpg" width="114" height="150" alt=""/><img src="volleyball.jpg" width="100" height="150" alt=""/><img src="volleybal.jpg" width="106" height="150" alt=""/><img src="games.jpg" width="113" height="150" alt=""/><img src="spikes.jpg" width="114" height="150" alt=""/><img src="volleyball.jpg" width="100" height="150" alt=""/><img src="volleybal.jpg" width="106" height="150" alt=""/>
 	</footer>
 </div>
 </body>

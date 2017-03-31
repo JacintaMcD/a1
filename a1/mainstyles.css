@@ -10,29 +10,29 @@
 	}
 .logo{
 	width: 100px;
-	position: fixed;
 	display: inline;
 	}
 nav {
 	float:right;
-	width: auto;
-	}
+		}
 header{
-	display: inline;
-	height: 120px;
-}
+		}
 footer {text-align: center;
+	border-top: 1px dotted #FFFFFF;
 }
 body{
 	background-image: url(background.jpg);
 }
+
 
 /*Font*/
 h1 {
 	text-transform: uppercase;
 	text-align: center;
 	border-bottom: 1px dotted #FFFFFF;
-}
+	display: block;
+	margin-top:-1em;
+	}
 p{
 	text-align: left;
 	margin-left: auto
@@ -42,7 +42,8 @@ p{
 a {
 	text-decoration: none;
 	color: #FFFFFF;
-}
+	padding: .75em;
+	}
 a:visited {
 	color: #2F2F2F;
 }
@@ -53,3 +54,16 @@ li{
 	display: inline
 }
 
+tbody {
+	text-align: right;
+	}
+
+intro {
+	color: #FFFFFF;
+	font-family: "Goudy Old Style", "High Tower Text", "Perpetua Titling MT";
+	font-size: large;
+	font-variant: small-caps;
+	text-align: center;
+	background-color: #00A4FF;
+	display: block;
+}
