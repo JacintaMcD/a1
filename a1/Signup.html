@@ -11,25 +11,37 @@
 <header>
 	<nav>
 		<ul>
-			<li><a href="index.html">Contents</a></li>
+			<li><a href="index.html">Home</a></li>
 			<li><a href="rules.html">Rules</a></li>
 			<li><a href="leaderboard.html">Leader Board</a></li>
 			<li><a href="ContactUs.html">Contact Us</a></li>
 			<li><a href="Signup.html">Sign Up</a></li>
 		</ul>
 	</nav>
-	<img class="logo"  src="SlammersLogo..png"/>
-	<h1>Team Sign Up</h1>
+	<img class="logo"  src="SlammersLogo.png"/>
+	<h1>Slammers beach volleyball</h1>
 </header>
 <!--Content-->
-
+<intro>
+    <ul>
+    <li>Do you want  to learn to play volleyball? </li>
+    <li>Meet new people?</li>
+    <li> Keep Fit? </li>
+    <li>Play competitively?</li><br>
+    <li> Or are you  just looking for a new social venue?</li>
+    <br>
+    <li><a href="ContactUs.html">contact us</a> now to find out more</li>
+    </ul>
+</intro>
 
 <!--Form-->
+<h2>Team Sign Up</h2>
 <p>Complete the form below to register your team at Slammers. If you are an individual wishing to play and don't have a team contact us direct so that we can match you up with a team.</p>
-<form> 
+<form class='signup'>
 	<label for="FirstName"> Contact Person Name: </label> <input type="text" required id="FirstName">
 	<label for="Phone">	Phone Number:</label> <input type="text" required id="Phone">
 	<label for="Email">Email:</label> <input type="text" required id="Email" size="40">
+	<br>
 <fieldset><legend>Competition Day</legend>
 	<label><input type="radio" name="Competition Day" value="Monday" id="CompetitionDay_0">Monday</label>
 	<label><input type="radio" name="Competition Day" value="Tuesday" id="CompetitionDay_1">Tuesday</label>
@@ -50,21 +62,23 @@
 <p>
   <input name="submit" type="submit" id="submit" formaction="signupdone.html" value="Submit">
 </p>
-<p><br>
-</p>
 </form>
-<h3>Playing Guidelines</h3>
-<ul>
-	<li> Participants in Slammers Beach Volleyball play at their own  risk. Anyone playing is responsible for their own safety and should only play  if they are capable. Check with your doctor before you begin.
-	</li>
-	<li> Game fees must be paid prior to the start of the game. Games  may be cancelled by players up to 4 hours before hand to get a refund. Without  4 hours' notice, participants will forfeit the game and be charged 50% of the  game fee.
-	</li>
-</ul>
+<div id="guidelines">
+  <h3>Playing Guidelines</h3>
+  <ul>
+    <li class="guideline">Participants in Slammers Beach Volleyball play at their own  risk.</li>
+    <li class="guideline">Anyone playing is responsible for their own safety and should only play  if they are capable.</li>
+    <li class="guideline">Check with your doctor before you begin.</li>
+    <li class="guideline">Game fees must be paid prior to the start of the game.</li>
+    <li class="guideline">Games  may be cancelled by players up to 4 hours before hand to get a refund.</li>
+    <li class="guideline">Without  4 hours' notice, participants will forfeit the game and be charged 50% of the  game fee.</li>
+  </ul>
+ </div>
  
 <!--Footer-->
 	<footer>
-		Website created by Jacinta McDonald<br>
-		<img src="games.jpg" width="113" height="150" alt=""/><img src="spikes.jpg" width="114" height="150" alt=""/><img src="volleyball.jpg" width="100" height="150" alt=""/><img src="volleybal.jpg" width="106" height="150" alt=""/><img src="games.jpg" width="113" height="150" alt=""/><img src="spikes.jpg" width="114" height="150" alt=""/><img src="volleyball.jpg" width="100" height="150" alt=""/><img src="volleybal.jpg" width="106" height="150" alt=""/>
+		<img src="games.jpg" width="113" height="150" alt=""/><img src="spikes.jpg" width="114" height="150" alt=""/><img src="volleyball.jpg" width="100" height="150" alt=""/><img src="volleybal.jpg" width="106" height="150" alt=""/><img src="games.jpg" width="113" height="150" alt=""/><img src="spikes.jpg" width="114" height="150" alt=""/><img src="volleyball.jpg" width="100" height="150" alt=""/><img src="volleybal.jpg" width="106" height="150" alt=""/><br>
+	Website created by Jacinta McDonald
 	</footer>
 </div>
 </body>

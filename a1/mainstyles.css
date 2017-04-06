@@ -9,34 +9,57 @@
 	margin: auto;
 	}
 .logo{
-	width: 100px;
 	display: inline;
 	}
 nav {
 	float:right;
+	display: inline
 		}
 header{
 		}
 footer {text-align: center;
 	border-top: 1px dotted #FFFFFF;
-}
+	display: block;
+	padding-top: 10px;
+	}
 body{
 	background-image: url(background.jpg);
 }
-
-
+intro {
+	color: #FFFFFF;
+	font-family: "Goudy Old Style", "High Tower Text", "Perpetua Titling MT";
+	font-size: large;
+	font-variant: small-caps;
+	text-align: center;
+	background-color: #01A3BD;
+	display: block;
+	margin-top: -.5em;
+	border-top: 1px dotted #FFFFFF;
+	border-bottom: 1px dotted #FFFFFF;
+	}
+#guidelines{
+	margin: 20px;
+	border: 3px ridge #BAE1F7;
+	background-color: #63C1F8;
+}
 /*Font*/
 h1 {
 	text-transform: uppercase;
 	text-align: center;
-	border-bottom: 1px dotted #FFFFFF;
 	display: block;
 	margin-top:-1em;
 	}
+h2 {
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+	}
+
 p{
 	text-align: left;
-	margin-left: auto
-}
+	font-family: Perpetua;
+	font-size: large;
+	}
 
 /*Links*/
 a {
@@ -45,25 +68,21 @@ a {
 	padding: .75em;
 	}
 a:visited {
-	color: #2F2F2F;
+	color: #8C8C8C;
 }
 a:hover {
-	color: #888888;
+	color: #F8B0B1;
 	}
 li{
-	display: inline
+	display: inline;
 }
+.guideline {
+	display: list-item;
+}
+/*Tables*/ 
 
-tbody {
-	text-align: right;
+#leaderboard{
+	margin-left: auto;
+	margin-right: auto;
+	cell-padding:0;
 	}
-
-intro {
-	color: #FFFFFF;
-	font-family: "Goudy Old Style", "High Tower Text", "Perpetua Titling MT";
-	font-size: large;
-	font-variant: small-caps;
-	text-align: center;
-	background-color: #00A4FF;
-	display: block;
-}
